@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Ugurlu - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ali Ugurlu</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm Ali Ugurlu</h1>
+                <p>Mobile App Developer & UI/UX Designer</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="profile.jpg" alt="Ali Ugurlu" class="profile-img">
+                <div class="about-text">
+                    <p>I'm a creative mobile app developer with a strong focus on user experience and interface design. With 4 years of experience in developing innovative mobile solutions, I specialize in creating intuitive and engaging applications.</p>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>iOS Development (Swift)</li>
+                            <li>Android Development (Kotlin)</li>
+                            <li>React Native</li>
+                            <li>UI/UX Design</li>
+                            <li>Figma & Adobe XD</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="images/fitness-app.svg" alt="Fitness Tracking App" loading="lazy">
+                    <h3>FitTrack Pro</h3>
+                    <p>A comprehensive fitness tracking application with real-time workout monitoring and personalized training plans.</p>
+                    <div class="project-tech">
+                        <span>Swift</span>
+                        <span>HealthKit</span>
+                        <span>CoreML</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/smart-home-app.svg" alt="Social Media App" loading="lazy">
+                    <h3>ConnectMe</h3>
+                    <p>A social networking platform focused on connecting professionals in creative industries.</p>
+                    <div class="project-tech">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                        <span>Redux</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="images/ecommerce-app.svg" alt="E-commerce App" loading="lazy">
+                    <h3>ShopSmart</h3>
+                    <p>An e-commerce mobile application with AR product visualization and smart recommendations.</p>
+                    <div class="project-tech">
+                        <span>Kotlin</span>
+                        <span>ARCore</span>
+                        <span>ML Kit</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://dribbble.com" target="_blank">Dribbble</a>
+            </div>
+            <p>&copy; 2024 Ali Ugurlu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
